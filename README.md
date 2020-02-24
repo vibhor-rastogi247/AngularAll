@@ -14,4 +14,4 @@ Things To Learn
 •	Modules
 •	Rxjs and observables
 •	http requests
-• component lifecycle
+•   component lifecycle
