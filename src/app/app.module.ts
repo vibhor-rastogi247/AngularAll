@@ -3,14 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BasicComponent } from './Component/basic/basic.component';
-import { FormComponent } from './Component/form/form.component';
+import { BasicComponent } from './Components/basic/basic.component';
+import { FormComponent } from './Components/form/form.component';
+import { HeadderComponent } from './Components/headder/headder.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicComponent,
-    FormComponent
+    FormComponent,
+    HeadderComponent
   ],
   imports: [
     BrowserModule,
